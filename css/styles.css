@@ -1,0 +1,386 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-shadow: border-box;
+}
+header{
+    width: 100%;
+}
+.nav-wrapper{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.logo-wrapper{
+    padding: 0.5rem 0rem;
+    margin:0.5rem 0rem;
+}
+h1{
+    font-size: 60px;
+    text-transform: uppercase;
+}
+.container{
+    background-color: rgb(230, 228, 225);
+    padding-top: 2rem;
+}
+.main-menu-list{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+}
+.utility-wrapper{
+    margin: auto 0;
+    float: right;
+}
+.utility{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.utility-list{
+    padding: 1rem;
+}
+.utility-list a{
+    color: black;
+}
+.utility-hamburger-menu{
+    display: none;
+}
+.sort-label-heading{
+    font-family: 'Poppins', 'Work Sans';
+}
+.main-menu{
+    padding: 3rem 2rem;
+}
+.main-menu a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.main-menu a:hover{
+    color: rgb(179, 0, 0);
+}
+.main-menu span{
+    text-transform: uppercase;
+    font-family: 'Montserrat','Poppins','Work Sans';
+}
+.cart-icon-bubble{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+/*======= PRODUCT PAGE =========*/
+.product-list-wrapper{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.main-content-left{
+    width: 23%;
+}
+.main-content-right{
+    width:77%;
+}
+.sort-box{
+    background-color: #e6e4e1;
+    padding: 10% 0%;
+}
+.sort-heading{
+    text-transform: uppercase;
+    font-weight:bolder;
+    font-family: 'Montserrat','Poppins','Work Sans';
+}
+.filter-button{
+    width: 77%;
+    padding: 3%;
+    border-radius: 10px;
+    border: none;
+    margin:1%;
+    display: flex;
+    justify-content: space-between;
+}
+.filter-button:hover{
+     background-color: bisque;
+}
+.filter-container{
+    display: none;
+}
+.filter-heading{
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin: 1rem 0.6rem;
+}
+.accordion{
+    width: 77%;
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 3%;
+    margin: 1rem 0rem;
+    border: none;
+    border-radius: 6px;
+    background-color: #e0dddd;
+}
+.accordion:hover{
+    background-color: #c9c7c7;
+}
+.filter-button{
+    width: 77%;
+    margin:0rem 0rem;
+    background-color: #e0dddd;
+}
+.filter-button:hover{
+    background-color: #c9c7c7;
+}
+.high-low-filter-button,.low-high-filter-button{
+    border-radius: 0%;
+}
+.show{
+    display: flex;
+}
+fieldset{
+    border:none;
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    gap:10px;
+}
+form{
+    margin: 1rem 0rem;
+}
+.filter-heading{
+    font-family: 'Montserrat','Poppins','Work Sans';
+    font-weight: bold;
+    margin:0;
+}
+#brand-checkbox,#processor,#memory,#graphics{
+    display: none;
+}
+.filterAccordianList label{
+    font-family: 'Poppins', 'Work Sans';
+    text-align: start;
+}
+input[type="checkbox"]{
+    width: 20px; /*Desired width*/
+    height: 20px; /*Desired height*/
+  }
+
+  /* ======= PRODUCT CARD ======= */
+  #product-wrapper{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: flex-start;
+    padding-left: 5rem;
+  }
+  .product-data-card{
+    width: 27%;
+    min-width: 240px;
+    background-color: #ffffffb5;
+    height: 415px;
+    border-radius: 32px;
+    text-align: center;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.1);
+    transition: all ease 0.2s;
+  }
+  .product-data-card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.2);
+  }
+  .cart-compare-btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .product-data-image{
+    width: 90%;
+    margin: 3px;
+  }
+  .product-brand-name{
+    font-family: 'Poppins','Work Sans';
+    font-weight:bolder;
+    margin: 0.5rem;
+  }
+  .product-og-price{
+    font-family: 'Poppins','Work Sans';
+    font-weight: 500;
+    margin: 0.5rem;
+  }
+  .add-to-compare, .add-to-cart{
+    width: 55%;
+    font-family: 'Poppins','Work Sans';
+    font-weight: 500;
+    margin:0.5rem;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 53px;
+  }
+  .add-to-compare:hover, .add-to-cart:hover{
+    background-color: grey;
+    color: aliceblue;
+  }
+
+  /* ========== Comparision Modal =========== */
+  .modal{
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    left:0;
+    bottom: 0;
+    width: 100%;
+    height:300px;
+    background-color: #fff;
+    padding: 20px;
+  }
+  .modal-content{
+    position: relative;
+    height: 276px;
+    width: 95%;
+    margin: 3rem auto;
+  }
+  .modal-content h3{
+    font-weight: bold;
+    font-family: 'Montserrat','Poppins','Work Sans';
+  }
+  .close-section{
+    position: absolute;
+    top:10px;
+    right: 10px;
+    cursor: pointer;
+  }
+  .close-card{
+    cursor: pointer;
+    position: absolute;
+    right: 13px;
+    top: 9px;
+  }
+
+  #comparision-products-list{
+    max-height: 229px;
+    overflow-y: auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .comparision-item{
+    display: flex;
+    position: relative;
+    border-radius: 27px;
+    width:12%;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    height: fit-content;
+    align-items: center;
+    margin-bottom: 10px;
+    flex-direction: column;
+    background-color: #fafafa;
+
+    border: 2px solid grey;
+  }
+  .comparision-image{
+    width:78%;
+    height: auto;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  .comparision-name{
+    font-weight: 400;
+    margin-right: 10px;
+    font-family: 'Poppins','Work Sans';
+    font-size: large;
+  }
+  .comparision-price{
+    color: #c04e4e;
+    font-size: large;
+    font-weight: 500;
+    font-family: 'Montserrat','Poppins','Work Sans';
+  }
+  #compare-button{
+    display: block;
+    margin: 22px;
+    float: right;
+    padding: 10px 20px;
+    background-color: beige;
+    border-radius: 31px;
+    font-size: 20px;
+    color: black;
+    border: none;
+    cursor: pointer;
+    font-family: 'Poppins','Work Sans';
+    font-weight: 500;
+  }
+  #compare-button:hover{
+    background-color: rgb(221, 221, 197);
+  }
+  .no-products{
+    color:#888;
+  }
+  /* ========== comparing page 2 ========= */
+  .compare-header h1{
+    font-family: 'Poppins';
+  }
+  .page-two-main-content-right{
+    width: 66%;
+    margin: 0 auto;
+  }
+  .compare-wrapper{
+    text-align: center;
+  }
+  #page-two-product-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: flex-start;
+    padding-left: 5rem;
+  }
+  .page-two-product-data-card{
+    width: 32%;
+    min-width: 240px;
+    background-color: #ffffffb5;
+    height: 4402px;
+    text-align: center;
+    transition: all ease 0.2s;
+  }
+  .page-two-product-data-card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.2);
+  }
+.page-two-product-data-image{
+    width: 90%;
+    margin: 3px;
+  }
+  .page-two-product-brand-name{
+    font-family: 'Poppins','Work Sans';
+    font-weight:bolder;
+    margin: 0.5rem;
+  }
+  .page-two-product-og-price{
+    font-family: 'Poppins','Work Sans';
+    font-weight: 500;
+    margin: 0.5rem;
+  }
+  .page-two-add-to-compare, .page-two-add-to-cart{
+    width: 55%;
+    font-family: 'Poppins','Work Sans';
+    font-weight: 500;
+    margin:0.5rem;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 53px;
+  }
+  .page-two-add-to-compare:hover, .page-two-add-to-cart:hover{
+    background-color: grey;
+    color: aliceblue;
+  }
+.page-two-product-key{
+    font-size: large;
+    font-family: 'Poppins','Work Sans';
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 1rem 0.8rem;
+    text-align: left;
+}

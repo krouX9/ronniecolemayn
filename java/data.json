@@ -1,0 +1,296 @@
+[
+    {
+        "product-id" : 3300,
+        "name": "MacBook Air",
+        "brand":"Apple",
+        "display": {
+          "size": "13.3-inch",
+          "resolution": "Retina display"
+        },
+        "processor": {
+          "manufacturer": "Apple",
+          "model": "M1 chip"
+        },
+        "memory": {
+          "size": "8GB",
+          "type": "LPDDR4X"
+        },
+        "storage": {
+          "size": "256GB",
+          "type": "SSD"
+        },
+        "weight": "2.8 pounds",
+        "price": 999,
+        "options": {
+          "color": ["Silver", "Space Gray", "Gold"],
+          "keyboard": ["English", "International"]
+        },
+        "image_url": "images/macbook.jpg"
+    },
+    {
+        "product-id": 3301,
+        "name": "MacBook M1 Max",
+        "brand": "Apple",
+        "display": {
+          "size": "16-inch",
+          "resolution": "Retina display"
+        },
+        "processor": {
+          "manufacturer": "Apple",
+          "model": "M1 Max Chip"
+        },
+        "memory": {
+          "size": "32GB",
+          "type": "LPDDR4X"
+        },
+        "storage": {
+          "size": "1TB",
+          "type": "SSD"
+        },
+        "weight": "4.8 pounds",
+        "price": 2999,
+        "options": {
+          "color": ["Matte", "Space Gray", "Gold"],
+          "keyboard": ["English", "International"]
+        },
+        "image_url": "images/macbook.jpg"
+      },
+      {
+        "product-id": 3302,
+        "name": "Dell XPS 13",
+        "brand": "Dell",
+        "display": {
+          "size": "13.4-inch",
+          "resolution": "Full HD"
+        },
+        "processor": {
+          "manufacturer": "Intel",
+          "model": "Intel Core i7"
+        },
+        "memory": {
+          "size": "16GB",
+          "type": "DDR4"
+        },
+        "storage": {
+          "size": "512GB",
+          "type": "SSD"
+        },
+        "weight": "2.65 pounds",
+        "price": 1299,
+        "options": {
+          "color": ["Platinum Silver", "Frost White"],
+          "keyboard": ["English", "International"]
+        },
+        "image_url": "images/macbook.jpg"
+      },
+      {
+        "product-id": 3303,
+        "name": "HP Spectre x360",
+        "brand": "HP",
+        "display": {
+          "size": "13.3-inch",
+          "resolution": "4K UHD"
+        },
+        "processor": {
+          "manufacturer": "Intel",
+          "model": "Intel Core i5"
+        },
+        "memory": {
+          "size": "16GB",
+          "type": "LPDDR4"
+        },
+        "storage": {
+          "size": "512GB",
+          "type": "SSD"
+        },
+        "weight": "2.87 pounds",
+        "price": 1199,
+        "options": {
+          "color": ["Nightfall Black", "Poseidon Blue"],
+          "keyboard": ["English", "International"]
+        },
+        "image_url": "images/macbook.jpg"
+      },
+      {
+          "product-id": 3304,
+          "name": "Lenovo X1 Carbon",
+          "brand": "Lenovo",
+          "display": {
+            "size": "14-inch",
+            "resolution": "WQHD"
+          },
+          "processor": {
+            "manufacturer": "Intel",
+            "model": "Intel Core i7"
+          },
+          "memory": {
+            "size": "16GB",
+            "type": "LPDDR4X"
+          },
+          "storage": {
+            "size": "1TB",
+            "type": "NVMe SSD"
+          },
+          "weight": "2.49 pounds",
+          "price": 1699,
+          "options": {
+            "color": ["Black"],
+            "keyboard": ["English", "International"]
+          },
+          "image_url": "images/macbook.jpg"
+        },
+
+        {
+          "product-id": 3305,
+          "name": "Asus ZenBook 14",
+          "brand": "Asus",
+          "display": {
+            "size": "14-inch",
+            "resolution": "Full HD"
+          },
+          "processor": {
+            "manufacturer": "AMD",
+            "model": "AMD Ryzen 7"
+          },
+          "memory": {
+            "size": "16GB",
+            "type": "DDR4"
+          },
+          "storage": {
+            "size": "512GB",
+            "type": "SSD"
+          },
+          "weight": "2.62 pounds",
+          "price": 1099,
+          "options": {
+            "color": ["Pine Grey"],
+            "keyboard": ["English", "International"]
+          },
+          "image_url": "images/macbook.jpg"
+        },
+        {
+          "product-id": 3306,
+          "name": "Microsoft Surface 4",
+          "brand": "Microsoft",
+          "display": {
+            "size": "13.5-inch",
+            "resolution": "PixelSense"
+          },
+          "processor": {
+            "manufacturer": "AMD",
+            "model": "AMD Ryzen 5"
+          },
+          "memory": {
+            "size": "8GB",
+            "type": "LPDDR4X"
+          },
+          "storage": {
+            "size": "256GB",
+            "type": "SSD"
+          },
+          "weight": "2.84 pounds",
+          "price": 1299,
+          "options": {
+            "color": ["Matte Black", "Platinum"],
+            "keyboard": ["English", "International"]
+          },
+          "image_url": "images/macbook.jpg"
+        }
+      ]
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
